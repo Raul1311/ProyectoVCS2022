@@ -1,11 +1,9 @@
 # ProyectoVCS2022
-## Plantilla de Documentación de Soporte y Uso de herramientas digitales - README.md
-Esta es una plantilla basada en los estándares de la Guía de publicacion de herramientas digitales del BID. Sabemos que no existe un solo estándar para la documentación de soporte y uso de herramientas digitales pero hemos recopilado estas características importantes que debe tener un readme.md para facilitar el uso y amplificar el potencial de impacto de las mismas. Cualquier comentario o recomendación les pedimos generar un issue de consulta o escribirnos directamente a code@iadb.org.
+## Papeleria El Traviezo - README.md
+Elaboracion del Proyecto FINAL  En El Instituto Tecnologico Superior De Mulege En La Carrera De Tecnologias De La Informacion y Comunicacion, En La Meteria De Sistema De Control De Versiones Con El maestro RAFAEL CHAIDEZ ROSAS
 
-*Esta herramienta digital forma parte del catálogo de herramientas del **Banco Interamericano de Desarrollo**. Puedes conocer más sobre la iniciativa del BID en [code.iadb.org](https://code.iadb.org)*
-
-<h1 align="center"> Papeleria el Trabiezo</h1>
-<p align="center"> Logo e imagen o gif de la interfaz principal de la herramienta</p>
+<h1 align="center"> Papeleria el Traviezo</h1>
+<p align="center"> Logo de la papeleria</p>
 <p align="center"><img src="https://user-images.githubusercontent.com/91574566/206925316-1e37bcba-c761-41f6-8aac-9d587a30c20e.png"/></p> 
 
 ## Tabla de contenidos:
