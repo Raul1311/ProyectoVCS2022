@@ -35,7 +35,4 @@ Explica los pasos básicos sobre cómo usar la herramienta digital. Es una buena
 ## Información adicional
 ---
 Esta es la sección que permite agregar más información de contexto al proyecto como alguna web de relevancia, proyectos similares o que hayan usado la misma tecnología.
----
-## Apartado de modificaciones proyecto
----
--
+
