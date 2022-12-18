@@ -47,3 +47,6 @@ Esta es la sección que permite agregar más información de contexto al proyect
 - se cambio el nombre al archivo servicio.html por pedidos.html
 - se agrego un video al archivo pedidos.html
 - se agregaron ofertas al archivo index.html
+- se agregaron videos al proyecto
+- se agregaron articulos al catalogo
+- se modificaron los distitos archivos .html
