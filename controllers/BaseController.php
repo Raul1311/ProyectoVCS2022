@@ -23,18 +23,18 @@ class BaseController{
     }
 
     public function agregar(){
-        require_once("views/templates/header.php");
-        require_once("views/templates/nav.php");
-        require_once("views/form.php"); 
-        require_once("views/templates/footer.php");
+        require_once("solartec-1.0.0/contact.html");
+        
     }
 
 
     public function insertarDatos(){
         $nombre = $_POST['nombre'];
-        $edad = intval($_POST['edad']);
-        $sexo = $_POST['sexo'];
-        if ($this->modelo->postBase($nombre,$edad,$sexo))
+        $apellido = $_POST['apellido'];
+        $edad = intval($_POST['telefono']);
+        $correo = $_POST['correo'];
+        $mensaje = $_POST['mensaje'];
+        if ($this->modelo->postBase($nombre,$apellido,$telefono,$correo,$mensaje))
             header("Location: /index.php/listar", TRUE, 301);
         else
             header("Location: /index.php/agregar", TRUE, 301);
