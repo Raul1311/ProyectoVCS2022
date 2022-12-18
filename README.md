@@ -41,4 +41,9 @@ Esta es la sección que permite agregar más información de contexto al proyect
 ## Apartado de modificaciones proyecto
 ---
 -Se modifico la base de datos y se agrego una nueva tabla llamada Contacto
-
+- se modifico el archivo index.html
+- se modifico el archivo contact.html
+- se modifico el archivo servicio.html 
+- se cambio el nombre al archivo servicio.html por pedidos.html
+- se agrego un video al archivo pedidos.html
+- se agregaron ofertas al archivo index.html
