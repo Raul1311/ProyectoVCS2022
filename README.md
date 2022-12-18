@@ -36,3 +36,9 @@ Explica los pasos básicos sobre cómo usar la herramienta digital. Es una buena
 ---
 Esta es la sección que permite agregar más información de contexto al proyecto como alguna web de relevancia, proyectos similares o que hayan usado la misma tecnología.
 
+
+---
+## Apartado de modificaciones proyecto
+---
+-Se modifico la base de datos y se agrego una nueva tabla llamada Contacto
+
