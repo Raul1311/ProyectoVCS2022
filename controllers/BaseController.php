@@ -8,20 +8,9 @@ class BaseController{
     }
 
     public function index(){
-        require_once("views/templates/header.php");
-        require_once("views/templates/nav.php");
-        require_once("views/home.php"); 
-        require_once("views/templates/footer.php");
+        require_once("solartec-1.0.0/index.html");
     }
-
-    public function listar(){
-        $datos=$this->modelo->getBase(); 
-        require_once("views/templates/header.php");
-        require_once("views/templates/nav.php");
-        require_once("views/lista.php"); 
-        require_once("views/templates/footer.php");
-    }
-
+    
     public function agregar(){
         require_once("solartec-1.0.0/contact.html");
         
@@ -29,16 +18,13 @@ class BaseController{
 
 
     public function insertarDatos(){
-        $nombre = $_POST['nombre'];
-        $apellido = $_POST['apellido'];
-        $edad = intval($_POST['telefono']);
-        $correo = $_POST['correo'];
-        $mensaje = $_POST['mensaje'];
-        if ($this->modelo->postBase($nombre,$apellido,$telefono,$correo,$mensaje))
-            header("Location: /index.php/listar", TRUE, 301);
-        else
-            header("Location: /index.php/agregar", TRUE, 301);
-        
+        $Nombre = $_POST['nombre'];
+        $Apellido = $_POST['apellido'];
+        $Telefono = intval($_POST['telefono']);
+        $Correo = $_POST['correo'];
+        $Mensaje = $_POST['mensaje'];
+        if ($this->modelo->postBase($Nombre,$Apellido,$Telefono,$Correo,$Mensaje))
+            header("Location: solartec-1.0.0/contact.html", TRUE, 301);
         exit();
     }
 }

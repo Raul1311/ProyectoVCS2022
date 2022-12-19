@@ -21,8 +21,8 @@ class BaseModel{
         return $this->base;
     }
 
-    public function postBase(string $nombre,string $nombre,int $telefono,string $correo,string $mensaje){
-       $sql = "INSERT INTO contacto (Nombre, Apellido, Telefono, Correo, Mensaje) VALUES ('".$nombre."','".$apellido."','".$telefono."',".$correo.",'".$mensaje."')"; 
+    public function postBase(string $Nombre,string $Apellido,int $Telefono,string $Correo,string $Mensaje){
+       $sql = "INSERT INTO contacto (nombre, apellido, telefono, correo, mensaje) VALUES ('".$Nombre."','".$Apellido."','".$Telefono."','".$Correo."','".$Mensaje."')"; 
 
         if (!$this->db->query($sql)) {
             //echo "Error: ".$this->db->error;
