@@ -50,3 +50,6 @@ Esta es la sección que permite agregar más información de contexto al proyect
 - se agregaron videos al proyecto
 - se agregaron articulos al catalogo
 - se modificaron los distitos archivos .html
+- se modifico el archivo catalogo.html agregandole descripcion a los productos
+- se modifico el archivo pedidos.html agregandode los productos mas comprados en la papeleria
+
